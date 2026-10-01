@@ -1,0 +1,6 @@
+a = 8
+
+if a%2==0:
+    print("is even",a)
+else:
+    print( "is odd",a)
