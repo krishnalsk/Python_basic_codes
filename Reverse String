@@ -1,0 +1,5 @@
+s  = "bala"
+
+b = s[::-1]
+
+print(b)
