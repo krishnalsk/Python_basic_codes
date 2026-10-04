@@ -1,0 +1,12 @@
+s = "Move#Hash#ToFront"
+
+hasha = ""
+other = ""
+
+for ch in s:
+    if ch == "#":
+        hasha += ch
+    else:
+        other += ch
+
+print(hasha + other)
