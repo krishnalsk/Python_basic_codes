@@ -1,0 +1,9 @@
+a = 0
+b = 1
+
+for i in range(7):
+    print(a,end=" ")
+    
+    a= a+b
+    b = a
+    c = b
