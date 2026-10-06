@@ -1,0 +1,13 @@
+arr = [2, 7, 11, 15]
+
+target = 9
+
+seen = set()
+
+for i in arr:
+    need = target - i
+    
+    if need in seen:
+        print(i,need)
+        
+    seen.add(i)
