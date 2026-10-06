@@ -1,0 +1,14 @@
+arr = [1, 2, 2, 3, 3, 4, 5]
+
+seen = set()
+count = 0
+
+for x in arr:
+    if x in seen:
+        count += 1
+
+        if count == 2:
+            print(x)
+            break
+    else:
+        seen.add(x)
